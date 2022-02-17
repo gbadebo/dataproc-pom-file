@@ -1,1 +1,8 @@
 Sample code on using Uber jar in Dataproc
+Install Maven
+
+# Build the package
+
+mvn package
+
+spark-submit  --class "SimpleApp" target/mytest.2-1.0.jar
